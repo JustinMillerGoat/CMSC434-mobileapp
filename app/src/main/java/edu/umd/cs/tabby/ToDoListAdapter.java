@@ -93,7 +93,7 @@ public class ToDoListAdapter extends BaseAdapter {
 		// TODO - Inflate the View for this ToDoItem
 		// from notification_listion_list.xml
 		LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		View itemLayout = inflater.inflate(R.layout.when, parent, false);
+		View itemLayout = inflater.inflate(R.layout.notification_list, parent, false);
 		// Fill in specific ToDoItem data
 		// Remember that the data that goes in this View
 		// corresponds to the user interface elements defined
